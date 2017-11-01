@@ -17,7 +17,7 @@ If you are not able to install the bot in Ubuntu 14, an upgrade to Ubuntu 16.04 
 After installing the dependencies, lets install the bot:
 ```bash
  git clone https://github.com/telebombang2018/cerner_helper
- cd Anti-*
+ cd cerner_helper
  chmod +x C
  ./C install
  ./C config
@@ -71,7 +71,7 @@ killall -9 bash
 
 killall screen
 
-cd An*
+cd cerner_helper
 
 chmod +x Company
 
@@ -80,13 +80,13 @@ screen ./Company
 -----------------------------------------
 روشن کردن ربات هلپر آفلاین ینی همون ای پی ای
 
-cd An*
+cd cerner_helper
 
 chmod +x api.lua
 
 screen lua api.lua
 
-
+-------------------------------------
 collecting by: me
 
 Company Channels: @richenergy
