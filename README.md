@@ -34,14 +34,72 @@ After installing the dependencies, lets install the bot:
  ./C Change-Login #Changed Login
  ./C start
 ```
-Developer:
-[Amir Bagheri](https://github.com/Codelua)
+داخل پوشه
 
-Company Channels:
---------------------
-[CerNer Company](https://github.com/CerNerCompany)
+bot
 
+فایل
+
+bot.lua
+
+در خط ۲۸ بجای توکن توکن ربات هلپر آفلاین ینی ای پی ای رو بزارید 
+
+خط ۳۹ بجای ۸۵ ایدی عددی خودتون و بجای ۶۹ ایدی عددی ربات آنلایتون سی ال ای
+
+در خط ۴۰ ایدی عددی خودتون رو بجای ۸۵ بزارید
+
+در خط ۴۱ ایدی عددی کانالتون رو بجای ۱۳ بزارید
+
+در خط ۴۲ ایدی عددی ربات آفلاین ای پی ای رو بزارید بجای ۹۰ 
+
+در خط ۴۳ ایدی کانالتون رو بزارید بجای کانال 
+
+
+برید داخل فایل 
+
+api.lua 
+
+در پوشه اصلی
+
+در خط ۱۱ توکن ربات ررو بجای توکن بزارید
+
+در خط ۱۹ بجای ۸۵ ایدی عددی خودتون و بجای ۶۹ ایدی عددی ربات آنلاین
+
+در خط ۲۹۹ بجای ۸۵ ایدی عددی خودتون و بجای ۶۹ ایدی عددی ربات آنلاین ینی سی ال ای رو بزارید
+
+بعد از همه اینا حتما سیو کنید
+
+و کد های پایینو بزنید
+
+----------------------
+اتولانچ
+
+killall -9 bash
+
+
+killall screen
+
+cd An*
+
+chmod +x Company
+
+screen ./Company
+
+-----------------------------------------
+روشن کردن ربات هلپر آفلاین ینی همون ای پی ای
+
+cd An*
+
+chmod +x api.lua
+
+screen lua api.lua
+
+
+Debugging by: @sudoshell
+
+Company Channels: @richenergy
+
+collecting by: @mafia_boy
 -------------------
-More information [CerNer Company](https://t.me/joinchat/FbE8wENTfgMVM1S9tNmosA)
 
 
