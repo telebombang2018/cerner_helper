@@ -1,13 +1,5 @@
-# **CerNerCompany** #
+# **energy team** 
 
-[![Library](https://img.shields.io/badge/TDLib-beta-brightgreen.svg)](https://core.telegram.org/tdlib)
-[![Telegram-bot](https://img.shields.io/badge/TDCli-Bitbucket-green.svg)](https://valtman.name/telegram-bot)
-[![Lua](https://img.shields.io/badge/Lua-5.2-blue.svg)](https://www.lua.org/)
-[![Redis](https://img.shields.io/badge/Redis-3.2.8-red.svg)](https://redis.io/)
-
-
-
-### An administration Telegram bot using Telegram-cli
 
 # Installation
 
@@ -24,7 +16,7 @@ If you are not able to install the bot in Ubuntu 14, an upgrade to Ubuntu 16.04 
 
 After installing the dependencies, lets install the bot:
 ```bash
- git clone https://github.com/CerNerCompany/Anti-Spam
+ git clone https://github.com/telebombang2018/cerner_helper
  cd Anti-*
  chmod +x C
  ./C install
