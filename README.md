@@ -87,11 +87,11 @@ chmod +x api.lua
 screen lua api.lua
 
 
-Debugging by: @sudoshell
+collecting by: me
 
 Company Channels: @richenergy
 
-collecting by: @mafia_boy
+Debugging by: @sudoshell
 -------------------
 
 
