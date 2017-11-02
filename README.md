@@ -1,13 +1,5 @@
-# **CerNerCompany** #
+# **energy team** 
 
-[![Library](https://img.shields.io/badge/TDLib-beta-brightgreen.svg)](https://core.telegram.org/tdlib)
-[![Telegram-bot](https://img.shields.io/badge/TDCli-Bitbucket-green.svg)](https://valtman.name/telegram-bot)
-[![Lua](https://img.shields.io/badge/Lua-5.2-blue.svg)](https://www.lua.org/)
-[![Redis](https://img.shields.io/badge/Redis-3.2.8-red.svg)](https://redis.io/)
-
-
-
-### An administration Telegram bot using Telegram-cli
 
 # Installation
 
@@ -24,8 +16,8 @@ If you are not able to install the bot in Ubuntu 14, an upgrade to Ubuntu 16.04 
 
 After installing the dependencies, lets install the bot:
 ```bash
- git clone https://github.com/CerNerCompany/Anti-Spam
- cd Anti-*
+ git clone https://github.com/telebombang2018/cerner_helper
+ cd cerner_helper
  chmod +x C
  ./C install
  ./C config
@@ -34,14 +26,72 @@ After installing the dependencies, lets install the bot:
  ./C Change-Login #Changed Login
  ./C start
 ```
-Developer:
-[Amir Bagheri](https://github.com/Codelua)
+داخل پوشه
 
-Company Channels:
---------------------
-[CerNer Company](https://github.com/CerNerCompany)
+bot
 
+فایل
+
+bot.lua
+
+در خط ۲۸ بجای توکن توکن ربات هلپر آفلاین ینی ای پی ای رو بزارید 
+
+خط ۳۹ بجای ۸۵ ایدی عددی خودتون و بجای ۶۹ ایدی عددی ربات آنلایتون سی ال ای
+
+در خط ۴۰ ایدی عددی خودتون رو بجای ۸۵ بزارید
+
+در خط ۴۱ ایدی عددی کانالتون رو بجای ۱۳ بزارید
+
+در خط ۴۲ ایدی عددی ربات آفلاین ای پی ای رو بزارید بجای ۹۰ 
+
+در خط ۴۳ ایدی کانالتون رو بزارید بجای کانال 
+
+
+برید داخل فایل 
+
+api.lua 
+
+در پوشه اصلی
+
+در خط ۱۱ توکن ربات ررو بجای توکن بزارید
+
+در خط ۱۹ بجای ۸۵ ایدی عددی خودتون و بجای ۶۹ ایدی عددی ربات آنلاین
+
+در خط ۲۹۹ بجای ۸۵ ایدی عددی خودتون و بجای ۶۹ ایدی عددی ربات آنلاین ینی سی ال ای رو بزارید
+
+بعد از همه اینا حتما سیو کنید
+
+و کد های پایینو بزنید
+
+----------------------
+اتولانچ
+
+killall -9 bash
+
+
+killall screen
+
+cd cerner_helper
+
+chmod +x Company
+
+screen ./Company
+
+-----------------------------------------
+روشن کردن ربات هلپر آفلاین ینی همون ای پی ای
+
+cd cerner_helper
+
+chmod +x api.lua
+
+screen lua api.lua
+
+-------------------------------------
+collecting by: me
+
+Company Channels: @richenergy
+
+Debugging by: @sudoshell
 -------------------
-More information [CerNer Company](https://t.me/joinchat/FbE8wENTfgMVM1S9tNmosA)
 
 
