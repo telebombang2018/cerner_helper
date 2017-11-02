@@ -1,5 +1,5 @@
 #start Project Anti Spam V4:)
-
+json = dofile('./libs/JSON.lua')
 serpent = dofile("./libs/serpent.lua")
 lgi = require ('lgi')
 notify = lgi.require('Notify')
@@ -3973,7 +3973,7 @@ local url , res  = https.request('https://api.telegram.org/bot'..SendApi..'/getc
 if res ~= 200 then
 end
 Company = json:decode(url)
-if redis:get("ForceJoin"..msg.chat_id) and not is_GlobalyBan(msg.sender_user_id) and (Company.result.status == "left" or Company.result.status == "kicked" or not Company.ok) then
+if redis:get("ForceJoin"..msg.chat_id) and not is_GlobalyBan(msg.sender_user_id) and (not Company.ok or Company.result.status == "left" or Company.result.status == "kicked") then
 sendText(msg.chat_id,msg.id,'  ابتدا باید در کانال زیر عضو شوید،سپس مجدد دستور خود را ارسال کنید\n'..Channel, 'html')
 else
 sendVideoNote(msg.chat_id,msg.id,0,1,nil,'./bot/ping.png')
