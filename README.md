@@ -64,11 +64,12 @@ api.lua
 و کد های پایینو بزنید
 
 ----------------------
-اتولانچ
+اتولانچ ربات آنلاین ینی سی ال ای
+
 
 killall -9 bash
 
-
+ـــــــــــــــــــــــــــ
 killall screen
 
 cd cerner_helper
@@ -85,8 +86,17 @@ cd cerner_helper
 chmod +x api.lua
 
 screen lua api.lua
+----------------------------------------------
+اتولانچ ربات آفلاین ینی ای پی ای
 
--------------------------------------
+cd cerner_helper
+
+chmod +x api.sh
+
+chmod +x apiauto.sh
+
+screen ./apiauto.sh
+------------------------------------
 collecting by: me
 
 Company Channels: @richenergy
